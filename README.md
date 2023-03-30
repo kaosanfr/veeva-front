@@ -1,10 +1,10 @@
 # veeva-front
 
 First time donwload
-Please run npm install
+npm install
 
-Building
+# Building
 npm run build
 
-Starting in a local service
+# Starting in a local service
 npm run start-dev
