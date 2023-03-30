@@ -4,6 +4,7 @@ import mapData from "./countries.json";
 import 'regenerator-runtime/runtime';
 import Legend from "./Legend";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {reloadComponent} from "./others";
 
 
 class GeoJsonMap extends React.Component {
@@ -108,10 +109,12 @@ class GeoJsonMap extends React.Component {
     }
 
 
+
     render() {
         return (
             <div>
                 <h1 style={{textAlign: "center"}}>Dashboard Study Coverage</h1>
+                <button className="btn btn-link" onClick={reloadComponent}>Refresh Information</button><br/>
                 <LeafletMap
                     center={[0, 10]}
                     zoom={1.5}

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GeoJsonMap from "./src/GeoJsonMap";
+import App from "./src/app";
 import "./src/styles.css";
 
-ReactDOM.render(<GeoJsonMap />, document.getElementById('react'));
+ReactDOM.render(<App/>
+,
+    document.getElementById('react'));
