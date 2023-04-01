@@ -1,10 +1,13 @@
 import React, {Component} from 'react'
-import {Map as LeafletMap, GeoJSON, Marker, Popup} from 'react-leaflet';
-import mapData from "./countries.json";
+import {Map as LeafletMap, GeoJSON} from 'react-leaflet';
+import mapData from "../ressources/json/countries.json";
 import 'regenerator-runtime/runtime';
-import Legend from "./Legend";
+import LegendColors from "./LegendColors";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {reloadComponent} from "./others";
+import {reloadComponent} from "./utils";
+import MyMarker from "./MyMarker";
+import Tooltip from 'react-tooltip-component-16';
+
 
 
 class GeoJsonMap extends React.Component {
@@ -14,6 +17,7 @@ class GeoJsonMap extends React.Component {
 
         this.state = {countryState: []}
     }
+
 
     handleLayer= (layer, template) => {
         layer.bindPopup(template);
@@ -59,7 +63,6 @@ class GeoJsonMap extends React.Component {
     }
 
     componentDidMount() {
-        this.fetchData();
     }
 
     componentWillUnmount() {
@@ -78,6 +81,7 @@ class GeoJsonMap extends React.Component {
         if (countryName == 'JP') {
             layer.options.fillColor = '#0000FF';
             template =
+                "<div class='h4'>Site</div>" +
                 "<div>Study Site Number : Number One<br/>Location: Japan <br/> Status: Candidate <br/> </div>" +
                 '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000001001?expanded=details__c&idx=0&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" target="_blank" class=link-info >More Info</a><br/><br/>';
         }
@@ -85,6 +89,7 @@ class GeoJsonMap extends React.Component {
         if (countryName == 'FR') {
             layer.options.fillColor = '#FF7F50';
             template =
+                "<div class='h4'>Site</div>" +
                 "<div>Study Site Number : Special123<br/>Location: France <br/> Status: Planning <br/> </div>" +
                 '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000001001?expanded=details__c&idx=0&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" target="_blank" class=link-info >More Info</a><br/><br/>';
 
@@ -94,6 +99,7 @@ class GeoJsonMap extends React.Component {
         if (countryName == 'CO') {
             layer.options.fillColor = '#9932CC';
             template =
+                "<div class='h4'>Site</div>" +
                 "<div>Study Site Number : XXXX<br/>Location: Colombia <br/> Status: Active <br/> </div>" +
                 '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000001001?expanded=details__c&idx=0&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" target="_blank" class=link-info >More Info</a><br/><br/>';
 
@@ -114,7 +120,13 @@ class GeoJsonMap extends React.Component {
         return (
             <div>
                 <h1 style={{textAlign: "center"}}>Dashboard Study Coverage</h1>
-                <button className="btn btn-link" onClick={reloadComponent}>Refresh Information</button><br/>
+                <button className="btn btn-link" onClick={reloadComponent}>Refresh Information</button>
+
+                <Tooltip id="help" position="bottom" title="Click a color country for Site details. Click a marker for Study country information">
+                    <button className="btn btn-link">Help on map use  </button>
+                </Tooltip>
+
+                <br/>
                 <LeafletMap
                     center={[0, 10]}
                     zoom={1.5}
@@ -127,12 +139,13 @@ class GeoJsonMap extends React.Component {
                     animate={true}
                     easeLinearity={0.35}
                 >
-                       <GeoJSON
+                    <GeoJSON
                         data={mapData.features}
                         style={this.countryStyle}
                         onEachFeature={this.onEachCountry}
                     />
-                    <Legend/>
+                    <LegendColors/>
+                    <MyMarker/>
                 </LeafletMap>
             </div>
         );

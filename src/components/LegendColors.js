@@ -1,7 +1,7 @@
 import { MapControl, withLeaflet } from "react-leaflet";
 import L from "leaflet";
 
-class Legend extends MapControl {
+class LegendColors extends MapControl {
     createLeafletElement(props) {}
 
     componentDidMount() {
@@ -28,4 +28,4 @@ class Legend extends MapControl {
     }
 }
 
-export default withLeaflet(Legend);
+export default withLeaflet(LegendColors);

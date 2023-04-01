@@ -34,7 +34,7 @@ export default class CustomListDropDown extends React.Component {
   }
   render() {
     return (
-      <div className="container mt-0" width="60px">
+      <div className="container mt-0">
         Study Countries
         <CustomDropdown
           name={this.state.countryName}

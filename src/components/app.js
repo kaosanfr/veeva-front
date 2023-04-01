@@ -5,6 +5,5 @@ import CustomListDropDown from "./CustomListDropDownList";
 export default function App() {
     return (<div>
         <GeoJsonMap/>
-        <CustomListDropDown/>
     </div>)
 }

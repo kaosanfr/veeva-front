@@ -35,7 +35,8 @@
     "style-loader": "^0.19.1",
     "http-proxy-middleware": "2.0.6",
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.9.7",
+    "react-tooltip-component-16":"^0.3.2"
   },
   "dependencies": {
     "bootstrap": "latest",
