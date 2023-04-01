@@ -83,7 +83,7 @@ class GeoJsonMap extends React.Component {
             template =
                 "<div class='h4'>Site</div>" +
                 "<div>Study Site Number : Number One<br/>Location: Japan <br/> Status: Candidate <br/> </div>" +
-                '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000003005?expanded=details__c&idx=4&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" class=link-info >More Info</a><br/><br/>';
+                '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000003005?expanded=details__c&idx=4&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0"  target="_parent" class=link-info >More Info</a><br/><br/>';
         }
 
         if (countryName == 'FR') {
@@ -91,7 +91,7 @@ class GeoJsonMap extends React.Component {
             template =
                 "<div class='h4'>Site</div>" +
                 "<div>Study Site Number : Special123<br/>Location: France <br/> Status: Planning <br/> </div>" +
-                '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000003008?expanded=details__c&idx=2&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" class=link-info >More Info</a><br/><br/>';
+                '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000003008?expanded=details__c&idx=2&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" target="_parent" class=link-info >More Info</a><br/><br/>';
 
 
         }
@@ -101,7 +101,7 @@ class GeoJsonMap extends React.Component {
             template =
                 "<div class='h4'>Site</div>" +
                 "<div>Study Site Number : XXXX<br/>Location: Colombia <br/> Status: Active <br/> </div>" +
-                '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000003001?expanded=details__c&idx=0&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" class=link-info >More Info</a><br/><br/>';
+                '<a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K17/0SI/0SI000000003001?expanded=details__c&idx=0&pt=robj&tvsl=JmNvbmZpZ05hbWU9c2l0ZV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNyZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE3&ivp=1&s=0" target="_parent" class=link-info >More Info</a><br/><br/>';
 
 
         }

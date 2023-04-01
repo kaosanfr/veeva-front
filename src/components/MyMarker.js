@@ -11,28 +11,28 @@ class MyMarker extends MapControl {
             "<div class='h6'>Country Study description</div>" +
             "<div><b>Site Number</b> : 123<br/><b>Study Phase></b>: III<br/><b>Study Type></b>: Human Pharmacodynamics<br/><b>Product></b>: Olofen</div>" +
             "<br/>" +
-            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000003004?expanded=details__c&idx=1&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0"  class=link-info >More Info</a><br/><br/></div>'
+            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000003004?expanded=details__c&idx=1&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0" target="_parent" class=link-info >More Info</a><br/><br/></div>'
 ;
 
         const templateColombia =
             "<div class='h6'>Country Study description</div>" +
             "<div><b>Site Number</b> : XXXX<br/><b>Study Phase></b>: III<br/><b>Study Type></b>: Human Pharmacodynamics<br/><b>Product></b>: Olofen</div>" +
             "<br/>" +
-            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000003002?expanded=details__c&idx=1&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0"  class=link-info >More Info</a><br/><br/></div>'
+            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000003002?expanded=details__c&idx=1&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0"  target="_parent" class=link-info >More Info</a><br/><br/></div>'
         ;
 
         const templateBrazil =
             "<div class='h6'>Country Study description</div>" +
             "<div><b>Site Number</b> : XXXX<br/><b>Study Phase></b>: III<br/><b>Study Type></b>: Human Pharmacodynamics<br/><b>Product></b>: Olofen</div>" +
             "<br/>" +
-            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000003003?expanded=details__c&idx=2&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0"  class=link-info >More Info</a><br/><br/></div>'
+            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000003003?expanded=details__c&idx=2&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0" target="_parent" class=link-info >More Info</a><br/><br/></div>'
         ;
 
         const templateJapan =
             "<div class='h6'>Country Study description</div>" +
             "<div><b>Site Number</b> : Number One<br/><b>Study Phase></b>: III<br/><b>Study Type></b>: Human Pharmacodynamics<br/><b>Product></b>: Olofen</div>" +
             "<br/>" +
-            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000002002?expanded=details__c&idx=3&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0"  class=link-info >More Info</a><br/><br/></div>'
+            '<div><a href="https://candidate-eu-tech-services---sandra.veevavault.com/ui/#t/0TB000000000K16/0SC/0SC000000002002?expanded=details__c&idx=3&pt=robj&tvsl=JmNvbmZpZ05hbWU9c3R1ZHlfY291bnRyeV9fdiZsb2NhdGlvbklkPTBUQjAwMDAwMDAwMEsxNiZzZWFyY2hUeXBlPXZvZlNvbHImaXZwPTEmc29ydEZpZWxkcyU1QjAlNUQlNUJ2YWx1ZSU1RD1Eb2NMYXN0Vmlld2VkJnNvcnRGaWVsZHMlNUIwJTVEJTVCb3JkZXIlNUQ9ZGVzYyZjdXN0b21EYXRhJTVCdmlld0lkJTVEPXJlY2VudCZjdXN0b21EYXRhJTVCdGFiSWQlNUQ9MFRCMDAwMDAwMDAwSzE2&ivp=1&s=0" target="_parent" class=link-info >More Info</a><br/><br/></div>'
         ;
 
 
