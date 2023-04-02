@@ -13,11 +13,13 @@ class LegendColors extends MapControl {
             let labels = [];
 
             labels.push(
+                '<i style="background:#00f279"></i>Initiating',
+                '<i style="background:#f600dd"></i>Active',
                 '<i style="background:#0000FF"></i>Candidate',
-                '<i style="background:#FF7F50"></i>Planning',
-                '<i style="background:#9932CC"></i>Active',
-                '<i style="background:#83ec4a"></i>Closing',
-                '<i style="background:#ecb34a"></i>Archived'
+                '<i style="background:#FF7F50"></i>Qualifying',
+                '<i style="background:#4aecde"></i>Qualifying Hold',
+                '<i style="background:#ffffff"></i>Not Selected',
+                '<i style="background:#ecb34a"></i>Closing'
             );
             div.innerHTML = "Site Status" + "<br/>" + labels.join("<br>");
             return div;
